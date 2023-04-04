@@ -43,3 +43,8 @@ variable "instance_Type" {
   description = "The instance type."
   default = ""
 }
+
+
+variable "test" {
+  description = "test varaible to check branch change."
+}
