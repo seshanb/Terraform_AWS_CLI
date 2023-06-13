@@ -1,8 +1,6 @@
 # Specify the provider and access details
 
-data "aws_region" "current_region" {
-   cur_region = "${var.region}"
-}
+data "aws_region" "current_region" {}
 
 data "external" "inspector_exists" {
   program = [
