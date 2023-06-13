@@ -1,7 +1,4 @@
 # Specify the provider and access details
-data "aws_iam_account_alias" "current_alias" {}
-data "aws_region" "current_region" {}
-data "aws_caller_identity" "current_account" {}
 
 data "external" "inspector_exists" {
   program = [
