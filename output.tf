@@ -5,7 +5,3 @@ output "address" {
 output "elastic_ip" {
   value = "${aws_eip.default.public_ip}"
 }
-
-output "shell_out" {
-  value = "${external.inspector_exists.program}"
-}
